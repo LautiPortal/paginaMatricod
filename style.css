@@ -7,7 +7,7 @@
 
 body {
   font-family: "Kanit", sans-serif;
-  background-color: #A7E1EF;
+  background-color: gainsboro;
 }
 
 header {
@@ -47,15 +47,13 @@ main {
 }
 main .card {
   display: flex;
-  height: 300px;
+  height: 100%;
   width: 100%;
-  background-color: whitesmoke;
   margin: 20px 0;
   border-radius: 5px;
 }
 main .card .img-container {
   width: 450px;
-  height: 300px;
 }
 main .card .img-container img {
   width: 100%;
@@ -63,6 +61,50 @@ main .card .img-container img {
   justify-content: center;
   align-items: center;
 }
+main .card .gallery-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  padding-left: 20px;
+  color: black;
+  background-color: rgba(245, 245, 245, 0.712);
+  box-shadow: 10px 10px 1px #0AA2D7;
+}
+main .card .gallery-info h3 {
+  font-weight: 400;
+  font-size: 25px;
+}
+main .card .gallery-info .title-highlight {
+  padding: 1px 0;
+  width: 60%;
+  background-color: #0AA2D7;
+}
+main .card .gallery-info p {
+  width: 100%;
+  text-align: start;
+  font-weight: 300;
+}
+main .card .gallery-info button {
+  border: none;
+  border-radius: 10px;
+  background-color: #252424;
+  padding: 15px;
+  color: whitesmoke;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+main .card .gallery-info button:hover {
+  cursor: pointer;
+}
+main .card .left {
+  box-shadow: 10px 10px 1px #0AA2D7;
+}
+main .matriz-section, main .formats-section {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
 footer {
   display: flex;
   justify-content: space-between;
