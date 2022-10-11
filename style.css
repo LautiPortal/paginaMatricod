@@ -43,48 +43,26 @@ header .icon {
 }
 
 main {
-  min-height: calc(100vh - 100px);
+  padding: 30px;
 }
-main .charger-section {
+main .card {
   display: flex;
-  align-items: center;
-}
-main .matriz-section {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  flex-direction: row-reverse;
-}
-main .digits-section {
-  display: flex;
-  align-items: center;
-}
-main .formats-section {
-  display: flex;
-  justify-content: flex-end;
-  flex-direction: row-reverse;
-  align-items: center;
-}
-main .specific-section {
-  display: flex;
-  align-items: center;
-}
-main .gallery-info {
-  background-color: whitesmoke;
   height: 300px;
   width: 100%;
+  background-color: whitesmoke;
+  margin: 20px 0;
+  border-radius: 5px;
 }
-main .img-container {
+main .card .img-container {
+  width: 450px;
+  height: 300px;
+}
+main .card .img-container img {
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 600px;
 }
-main .img-container img {
-  object-fit: cover;
-  width: 100%;
-}
-
 footer {
   display: flex;
   justify-content: space-between;
