@@ -1,0 +1,39 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $blackGray;
+    padding: 10px;
+        .logo {
+            width: 180px;
+            padding: 5px;
+        }
+        
+        .section-container {
+            display: flex;
+            gap: 20px;
+            padding: 10px;
+            margin: 0;
+                .nav-item {
+                    font-size: 20px;
+                    list-style-type: none;
+                        .nav-link {
+                            text-decoration: none;
+                            color: white;
+                            font-weight: 300;
+                        }
+                }
+        }
+        .icon {
+            color: $mainColor;
+            font-size: 30px;
+            padding: 10px;
+        }
+}
+
+
+
+
+
+
+

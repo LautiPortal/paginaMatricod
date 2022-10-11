@@ -1,0 +1,55 @@
+
+main {
+    min-height: calc(100vh - 100px);
+
+    .charger-section {
+        display: flex;
+        align-items: center;
+      
+    }
+
+    .matriz-section {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        flex-direction: row-reverse;
+  
+    }
+
+    .digits-section {
+        display: flex;
+        align-items: center;
+   
+    }
+
+    .formats-section {
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: row-reverse;
+        align-items: center;
+     
+    }
+
+    .specific-section {
+        display: flex;
+        align-items: center;
+    }
+
+    .gallery-info {
+        background-color: whitesmoke;
+        height: 300px;
+        width: 100%;
+    }
+
+    .img-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 600px;
+            img {
+                object-fit: cover;
+                width: 100%;
+            }
+    }
+}
+

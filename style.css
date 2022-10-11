@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&display=swap%27");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kanit", sans-serif;
+  background-color: #A7E1EF;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #252424;
+  padding: 10px;
+}
+header .logo {
+  width: 180px;
+  padding: 5px;
+}
+header .section-container {
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+  margin: 0;
+}
+header .section-container .nav-item {
+  font-size: 20px;
+  list-style-type: none;
+}
+header .section-container .nav-item .nav-link {
+  text-decoration: none;
+  color: white;
+  font-weight: 300;
+}
+header .icon {
+  color: #0AA2D7;
+  font-size: 30px;
+  padding: 10px;
+}
+
+main {
+  min-height: calc(100vh - 100px);
+}
+main .charger-section {
+  display: flex;
+  align-items: center;
+}
+main .matriz-section {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: row-reverse;
+}
+main .digits-section {
+  display: flex;
+  align-items: center;
+}
+main .formats-section {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+main .specific-section {
+  display: flex;
+  align-items: center;
+}
+main .gallery-info {
+  background-color: whitesmoke;
+  height: 300px;
+  width: 100%;
+}
+main .img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+}
+main .img-container img {
+  object-fit: cover;
+  width: 100%;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #252424;
+  color: whitesmoke;
+  height: 180px;
+  padding: 10px;
+  margin-top: 30px;
+}
+footer .footer-info {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  font-weight: 200;
+  width: 45%;
+  text-align: justify;
+  gap: 10px;
+}
+footer .icon-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+footer .icon-container span {
+  font-size: 20px;
+  font-weight: 200;
+}
+footer .icon-container .icons {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+}
+footer .icon-container .footer-icon {
+  font-size: 35px;
+  color: #0AA2D7;
+}
+footer .icon-container .footer-icon:hover {
+  cursor: pointer;
+}
+footer .footer-logo .logo {
+  width: 220px;
+}
+
+/*# sourceMappingURL=style.css.map */
